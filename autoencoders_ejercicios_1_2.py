@@ -173,4 +173,3 @@ with torch.no_grad():
         plt.axis('off')
         if i == 0: ax.set_title("Reconstrucciones")
     plt.show()
-
