@@ -168,7 +168,6 @@ with torch.no_grad():
         plt.imshow(images[i].reshape(28, 28), cmap='gray')
         plt.axis('off')
         if i == 0: ax.set_title("Originales")
-
         ax = plt.subplot(2, 10, i + 11)
         plt.imshow(reconstructed[i].reshape(28, 28), cmap='gray')
         plt.axis('off')
